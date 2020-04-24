@@ -7,8 +7,9 @@
     <None Include="wwwroot\JSOverlay.html" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="ApprovalUtilities" Version="5.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
     <Content Update="Views\Shared\Error.cshtml">
